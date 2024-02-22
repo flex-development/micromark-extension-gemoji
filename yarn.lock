@@ -1544,9 +1544,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flex-development/micromark-extension-emoji@workspace:.":
+"@flex-development/micromark-extension-gemoji@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@flex-development/micromark-extension-emoji@workspace:."
+  resolution: "@flex-development/micromark-extension-gemoji@workspace:."
   dependencies:
     "@arethetypeswrong/cli": "npm:0.14.0"
     "@commitlint/cli": "npm:18.6.1"
@@ -1597,11 +1597,13 @@ __metadata:
     eslint-plugin-yml: "npm:1.12.2"
     estree-util-to-js: "npm:2.0.0"
     estree-util-visit: "npm:2.0.0"
+    gemoji: "npm:8.1.0"
     growl: "npm:1.10.5"
     husky: "npm:9.0.11"
     is-ci: "npm:3.0.1"
     jsonc-eslint-parser: "npm:2.4.0"
     lint-staged: "npm:15.2.2"
+    micromark: "npm:4.0.0"
     micromark-util-character: "npm:2.1.0"
     micromark-util-symbol: "npm:2.0.0"
     micromark-util-types: "npm:2.0.0"
@@ -5498,6 +5500,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gemoji@npm:8.1.0":
+  version: 8.1.0
+  resolution: "gemoji@npm:8.1.0"
+  checksum: 10/42d8616dfdfc91d06a051a356e74083c62f628e518dbb2611d88d3edcce9ab422b0254f1e6fe37b78c7ddec4bceb71a39f63f93c6fc9bd6cdab57801f6d33e07
+  languageName: node
+  linkType: hard
+
 "gensequence@npm:^6.0.0":
   version: 6.0.0
   resolution: "gensequence@npm:6.0.0"
@@ -7839,7 +7848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark@npm:^4.0.0":
+"micromark@npm:4.0.0, micromark@npm:^4.0.0":
   version: 4.0.0
   resolution: "micromark@npm:4.0.0"
   dependencies:

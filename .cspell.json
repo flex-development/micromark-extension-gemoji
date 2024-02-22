@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "allowCompoundWords": true,
   "caseSensitive": false,
-  "dictionaries": ["@flex-development/micromark-extension-emoji"],
+  "dictionaries": ["@flex-development/micromark-extension-gemoji"],
   "dictionaryDefinitions": [
     {
-      "name": "@flex-development/micromark-extension-emoji",
+      "name": "@flex-development/micromark-extension-gemoji",
       "path": "./.dictionary.txt"
     }
   ],

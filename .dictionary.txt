@@ -13,6 +13,7 @@ dprint
 esast
 estree
 fbca
+gemoji
 ggshield
 gpgsign
 hmarr

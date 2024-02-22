@@ -1,18 +1,21 @@
 {
-  "name": "@flex-development/micromark-extension-emoji",
-  "description": "micromark extensions to support emoji shortcodes (`:+1:`)",
+  "name": "@flex-development/micromark-extension-gemoji",
+  "description": "micromark extensions to support gemoji (`:+1:`)",
   "version": "0.0.0",
   "keywords": [
+    "emoji",
     "extension",
+    "gemoji",
+    "github",
     "markdown",
     "micromark",
     "micromark-extension",
     "unified"
   ],
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/flex-development/micromark-extension-emoji",
-  "repository": "https://github.com/flex-development/micromark-extension-emoji.git",
-  "bugs": "https://github.com/flex-development/micromark-extension-emoji/issues",
+  "homepage": "https://github.com/flex-development/micromark-extension-gemoji",
+  "repository": "https://github.com/flex-development/micromark-extension-gemoji.git",
+  "bugs": "https://github.com/flex-development/micromark-extension-gemoji/issues",
   "author": {
     "name": "Lexus Drumgold",
     "url": "https://github.com/unicornware"
@@ -76,6 +79,7 @@
   },
   "dependencies": {
     "devlop": "1.1.0",
+    "gemoji": "8.1.0",
     "micromark-util-character": "2.1.0",
     "micromark-util-symbol": "2.0.0",
     "micromark-util-types": "2.0.0"
@@ -134,6 +138,7 @@
     "is-ci": "3.0.1",
     "jsonc-eslint-parser": "2.4.0",
     "lint-staged": "15.2.2",
+    "micromark": "4.0.0",
     "node-notifier": "10.0.1",
     "prettier": "3.2.5",
     "remark": "15.0.1",

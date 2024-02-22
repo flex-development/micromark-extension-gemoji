@@ -1,6 +1,6 @@
 /**
  * @file Package Entry Point
- * @module micromark-extension-emoji
+ * @module micromark-extension-gemoji
  */
 
 export {}

@@ -169,11 +169,11 @@ repository:
   automated_security_fixes: true
   default_branch: main
   delete_branch_on_merge: true
-  description: micromark extensions to support emoji shortcodes
+  description: micromark extensions to support gemoji
   has_issues: true
   has_projects: true
   has_wiki: false
-  homepage: https://github.com/flex-development/micromark-extension-emoji
+  homepage: https://github.com/flex-development/micromark-extension-gemoji
   is_template: false
   private: false
   security_and_analysis:
@@ -184,7 +184,10 @@ repository:
   squash_merge_commit_message: BLANK
   squash_merge_commit_title: PR_TITLE
   topics:
+    - emoji
     - extension
+    - gemoji
+    - github
     - markdown
     - micromark
     - micromark-extension

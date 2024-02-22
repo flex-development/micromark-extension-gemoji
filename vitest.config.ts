@@ -59,9 +59,9 @@ const config: UserConfigExport = defineConfig((env: ConfigEnv): UserConfig => {
         exclude: [
           '**/__mocks__/**',
           '**/__tests__/**',
-          '**/index.ts',
-          'src/interfaces/',
-          'src/types/'
+          '**/interfaces/',
+          '**/types/',
+          '**/index.ts'
         ],
         extension: ['.ts'],
         include: ['src'],

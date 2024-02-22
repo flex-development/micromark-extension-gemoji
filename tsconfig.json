@@ -29,8 +29,9 @@
     "noUnusedParameters": false,
     "outDir": "dist",
     "paths": {
+      "#src/*": ["src/*"],
       "#tests/*": ["__tests__/*"],
-      "@flex-development/micromark-extension-emoji": ["src/index"]
+      "@flex-development/micromark-extension-gemoji": ["src/index"]
     },
     "preserveConstEnums": true,
     "preserveSymlinks": false,

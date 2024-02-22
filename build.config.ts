@@ -16,15 +16,17 @@ import tsconfig from './tsconfig.build.json' assert { type: 'json' }
 const config: Config = defineBuildConfig({
   charset: 'utf8',
   entries: [
-    {},
     {
-      outdir: 'dist/dev',
-      plugins: []
+      dts: 'only'
+    },
+    {
+      dts: false,
+      ignore: ['interfaces', 'types'],
+      plugins: [],
+      sourcemap: true,
+      sourcesContent: false
     }
   ],
-  pattern: ['*.ts'],
-  sourcemap: true,
-  sourcesContent: false,
   target: [
     pkg.engines.node.replace(/^\D+/, 'node'),
     tsconfig.compilerOptions.target
