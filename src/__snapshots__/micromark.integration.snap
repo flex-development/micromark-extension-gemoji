@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`integration:micromark > gemoji name > should support alpha name 1`] = `"<span>📦</span>"`;
+
+exports[`integration:micromark > gemoji name > should support alphanumeric name 1`] = `"<span>🌟</span>"`;
+
+exports[`integration:micromark > gemoji name > should support name with values.dash 1`] = `"<span>👎</span>"`;
+
+exports[`integration:micromark > gemoji name > should support name with values.plusSign 1`] = `"<span>👍</span>"`;
+
+exports[`integration:micromark > gemoji name > should support name with values.underscore 1`] = `"<span>🫂</span>"`;
